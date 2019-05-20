@@ -39,6 +39,8 @@ from sys import version_info
 from time import strftime
 from xlsxwriter.utility import xl_rowcol_to_cell
 
+# Alter this to whatever you need for your organization
+ORG_NAME = 'CWREMC'
 
 
 def hms_string(sec_elapsed):
@@ -102,7 +104,7 @@ def jsonRead(input):
             polygon = shape(feature['geometry'])
             territoryOwner = str(feature['properties']['NAME_ABREV'])
             if (polygon.contains(point)) \
-            and str(feature['properties']['NAME_ABREV'] == "CWREMC"):       
+            and str(feature['properties']['NAME_ABREV'] == ORG_NAME):       
                 print(str(kmlAddr) + " is in our territory. ID is " + str(feature['properties']['OBJECTID']))
             else:
                 print(str(kmlAddr) + " is not in our territory; owned by " + territoryOwner)
