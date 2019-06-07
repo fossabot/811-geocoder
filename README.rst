@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FstephanGarland%2F811-geocoder.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FstephanGarland%2F811-geocoder?ref=badge_shield)
+
 Dependencies:
 *************
 
@@ -40,3 +42,7 @@ Noted shortcomings:
 * Point-in-polygon isn't perfect. It is helpful, but you will need to check its output for sanity.
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FstephanGarland%2F811-geocoder.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FstephanGarland%2F811-geocoder?ref=badge_large)
